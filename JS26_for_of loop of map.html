@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For of loop iterate map</title>
+</head>
+<body>
+    <h1>For of loop iterate over a map</h1><br><br>
+    <script language="javascript">
+        const msg=new Map([['a',1],['b',2],['c',3]]);
+        for (const entry of msg){
+            document.write(entry+"<br>")
+        }
+        document.write("<br> <br>")
+        for (const[key,value] of msg){
+            document.write(key+":"+value+"<br>")
+        }
+    </script>
+</body>
+</html>
