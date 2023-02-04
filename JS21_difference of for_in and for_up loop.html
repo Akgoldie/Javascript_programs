@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For-in loop</title>
+</head>
+<body>
+    <h1>Difference of for_in loop and for_of loop</h1><br><br>
+    <script language="javascript">
+        var msg=["arun","bala","dinesh","gokul","rss.ravi"]
+        for (x in msg){
+            document.write("index of "+x+" is "+msg[x]+"<br>")
+        }
+        for (x of msg){
+            document.write(x+"<br>")
+        }
+    </script>
+</body>
+</html>
