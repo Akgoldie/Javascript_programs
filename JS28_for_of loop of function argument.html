@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For-of loop for function arguments</title>
+    <script language="javascript">
+        function myfun(){
+            for(const arg of arguments){
+                document.write(arg+"<br>");
+            }
+            document.write("Total Arguments = "+arguments.length);
+        }
+    </script>
+</head>
+<body>
+    <h1>For of loop iterate a Function arguments</h1><br><br>
+    <script language="javascript">
+        myfun(1,2,3,4,5);
+    </script>
+</body>
+</html>
