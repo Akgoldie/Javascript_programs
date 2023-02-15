@@ -7,4 +7,4 @@
 [CodePen](https://codepen.io/Akgoldie) |
 [Codechef](https://www.codechef.com/users/akgoldie) |
 [HackerRank](https://www.hackerrank.com/Akgoldie) |
-[LeetCode](https://leetcode.com/Akgoldie/)
+[LeetCode ](https://leetcode.com/Akgoldie/)
